@@ -1,0 +1,6 @@
+# Getting user input
+text = input()
+# Counting letters in one liner for loop
+dict = {x: text.count(x) for x in text}
+# Displaying the output
+print(dict)
